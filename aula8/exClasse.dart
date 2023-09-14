@@ -15,6 +15,8 @@ class Casa {
     this.abrirJanelas(2);
     this.abrirPorta();
   }
+
+  double? valor;
 }
 
 void main() {
@@ -30,5 +32,5 @@ void main() {
   imovel.cor = "Red";
   print(imovel.cor);
   imovel.valor = 500.000;
-  print("O valor do imovel é de R$  ${imovel.valor}");
+  print("O valor do imovel é de R\$  ${imovel.valor}");
 }
